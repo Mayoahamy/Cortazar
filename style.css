@@ -1,19 +1,74 @@
 body{
     background-color: #ededed;
-    font-size: 25px;
     margin: 0;
     padding: 0;
+    font-size: 4vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
     background-color: #638eff;
     padding: 1.5%;
 }
-.header{
-    font-size: 49px;
-}
 .header #headertext{
     margin: 0 0 0 7%;
     color: #ededed;
+    font-style: oblique;
     font-family:"Playwrite CU", cursive;
-    font-size: 1em;
+    font-size: 0.6em;
+}
+section{
+    margin: 5% 0 5% 0;
+}
+.libreria{
+    display:flex;
+    justify-content: center;
+}
+.libreria .text{
+    font-size: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    border-radius: 2vw;
+}
+.img{
+    position: relative;
+    text-align: center;
+    margin: 0 3%;
+    transition: transform 0.2s ease;
+    border-radius: 2vw;
+    border: 3px solid #638eff;
+}
+.imagen{
+    width: 18vw;
+    aspect-ratio: 9/15;
+    display: block;
+    transition: transform 0.2s ease;
+    border-radius: 2vw;
+}
+.img:hover .text{
+    opacity:1;
+}
+.img:hover {
+    transform: scale(1.2);
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align:center;
+    padding:10px;
+    bottom: 0;
+    opacity: 80%;
+}
+#footer{
+    font-size: 1.5em;
 }
