@@ -1,0 +1,17 @@
+body{
+    background-color: #ededed;
+    margin: 0;
+    padding: 0;
+    font-size: 4vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #638eff;
+    padding: 1.5%;
+}
+.header #headertext{
+    margin: 0 0 0 7%;
+    color: #ededed;
+    font-family:"Playwrite CU", cursive;
+    font-size: 0.6em;
+}
