@@ -4,11 +4,11 @@ function headerResp(){
     let logo_header = document.getElementById("logo");
     if(window_width<600){
         header_text.textContent = " ";
-        logo_header.setAttribute("src","img/celular.png");
+        logo_header.setAttribute("src","celular.png");
     }
     else if(window_width>=600){
         header_text.textContent = "Proyecto \"40 años sin/con Julio Cortazar\"";
-        logo_header.setAttribute("src","img/pc.png");
+        logo_header.setAttribute("src","pc.png");
     }
 }
 
