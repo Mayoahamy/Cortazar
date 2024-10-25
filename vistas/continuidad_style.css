@@ -32,6 +32,7 @@ main{
         justify-content: center;
     }
     #fotolibro{
+        height: 300px;
         margin-bottom: 20px;
     }
     #infotec{
@@ -69,6 +70,9 @@ main{
         margin: 0 0 0 7%;
         font-size: 0.6em;
         padding: 5%;
+    }
+    #fotolibro{
+        height: 100%;
     }
     #infotec{
         width: 60%;
@@ -130,7 +134,6 @@ summary{
     color: #507ff5;
 }
 #fotolibro{
-    height: 100%;
     aspect-ratio: 9/15;
     margin-right: 10px;
     border-radius: 10px;
