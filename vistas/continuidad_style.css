@@ -12,7 +12,7 @@ main{
 @media(width<600px){
     #section1{
         display: flex;
-        height: 650px;
+        height: 90vh;
         align-items: center;
         flex-direction: column;
     }
@@ -120,7 +120,7 @@ a{
     height: 60px;
 }
 #section1{
-    margin: 15px 40px;
+    margin: 15px 0;
     padding: 20px;
 }
 .section{
