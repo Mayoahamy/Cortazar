@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdfw07j48nq2q"]
+
+[ext_resource type="Script" path="res://Escenas/timer.gd" id="1_yl1lf"]
+[ext_resource type="Script" path="res://Escenas/timer_label.gd" id="2_tk15c"]
+
+[node name="Timer" type="Timer" groups=["timer"]]
+process_callback = 0
+autostart = true
+script = ExtResource("1_yl1lf")
+
+[node name="timer_label" type="CanvasLayer" parent="."]
+script = ExtResource("2_tk15c")
+
+[node name="Label" type="Label" parent="timer_label"]
+offset_left = 30.0
+offset_top = 3.0
+offset_right = 61.0
+offset_bottom = 26.0
+size_flags_horizontal = 4
+text = "100"
+metadata/_edit_use_anchors_ = true
+
+[connection signal="time_update" from="." to="timer_label" method="_on_timer_time_update"]
+[connection signal="timeout" from="." to="." method="_on_timeout"]
